@@ -2,6 +2,16 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>OPTIMA_B.TTF</string>
+		<string>OPTIMA.TTF</string>
+		<string>unicode.optima.ttf</string>
+		<string>Akzidenz-grotesk-black.ttf</string>
+		<string>Akzidenz-grotesk-bold.ttf</string>
+		<string>Akzidenz-grotesk-light.ttf</string>
+		<string>Akzidenz-grotesk-roman.ttf</string>
+	</array>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>

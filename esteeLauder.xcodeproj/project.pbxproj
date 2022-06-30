@@ -17,6 +17,9 @@
 		16BD9E4C286E22AF00D91184 /* esteeLauderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD9E4B286E22AF00D91184 /* esteeLauderTests.swift */; };
 		16BD9E56286E22AF00D91184 /* esteeLauderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD9E55286E22AF00D91184 /* esteeLauderUITests.swift */; };
 		16BD9E58286E22AF00D91184 /* esteeLauderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD9E57286E22AF00D91184 /* esteeLauderUITestsLaunchTests.swift */; };
+		16BD9E65286E23FA00D91184 /* Optima-Font in Resources */ = {isa = PBXBuildFile; fileRef = 16BD9E64286E23FA00D91184 /* Optima-Font */; };
+		16BD9E67286E2BC500D91184 /* akzidenz_sv in Resources */ = {isa = PBXBuildFile; fileRef = 16BD9E66286E2BC400D91184 /* akzidenz_sv */; };
+		16BD9E69286E49BF00D91184 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BD9E68286E49BF00D91184 /* ProductsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		16BD9E51286E22AF00D91184 /* esteeLauderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = esteeLauderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		16BD9E55286E22AF00D91184 /* esteeLauderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderUITests.swift; sourceTree = "<group>"; };
 		16BD9E57286E22AF00D91184 /* esteeLauderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = esteeLauderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		16BD9E64286E23FA00D91184 /* Optima-Font */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Optima-Font"; path = "../../Optima-Font"; sourceTree = "<group>"; };
+		16BD9E66286E2BC400D91184 /* akzidenz_sv */ = {isa = PBXFileReference; lastKnownFileType = folder; path = akzidenz_sv; sourceTree = "<group>"; };
+		16BD9E68286E49BF00D91184 /* ProductsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		16BD9E25286E22A800D91184 = {
 			isa = PBXGroup;
 			children = (
+				16BD9E66286E2BC400D91184 /* akzidenz_sv */,
+				16BD9E64286E23FA00D91184 /* Optima-Font */,
 				16BD9E30286E22A800D91184 /* esteeLauder */,
 				16BD9E4A286E22AF00D91184 /* esteeLauderTests */,
 				16BD9E54286E22AF00D91184 /* esteeLauderUITests */,
@@ -104,6 +112,7 @@
 				16BD9E31286E22A800D91184 /* AppDelegate.swift */,
 				16BD9E33286E22A800D91184 /* SceneDelegate.swift */,
 				16BD9E35286E22A800D91184 /* ViewController.swift */,
+				16BD9E68286E49BF00D91184 /* ProductsViewController.swift */,
 				16BD9E37286E22A800D91184 /* Main.storyboard */,
 				16BD9E3D286E22AE00D91184 /* Assets.xcassets */,
 				16BD9E3F286E22AE00D91184 /* LaunchScreen.storyboard */,
@@ -235,6 +244,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				16BD9E41286E22AE00D91184 /* LaunchScreen.storyboard in Resources */,
+				16BD9E67286E2BC500D91184 /* akzidenz_sv in Resources */,
+				16BD9E65286E23FA00D91184 /* Optima-Font in Resources */,
 				16BD9E3E286E22AE00D91184 /* Assets.xcassets in Resources */,
 				16BD9E39286E22A800D91184 /* Main.storyboard in Resources */,
 			);
@@ -265,6 +276,7 @@
 				16BD9E32286E22A800D91184 /* AppDelegate.swift in Sources */,
 				16BD9E34286E22A800D91184 /* SceneDelegate.swift in Sources */,
 				16BD9E3C286E22A800D91184 /* esteeLauder.xcdatamodeld in Sources */,
+				16BD9E69286E49BF00D91184 /* ProductsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
